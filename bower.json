@@ -1,0 +1,9 @@
+{
+	"name": "rsgyc-forms form with parlsy-validation and stripe",
+	"dependencies": {
+		"angular": "1.5.*",
+		"angular-translate": "2.11.*",
+		"bootstrap": "3.3.*",
+		"flag-icon-css": "2.4.*"
+	}
+}
