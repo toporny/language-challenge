@@ -1,8 +1,8 @@
 {
-	"name": "rsgyc-forms form with parlsy-validation and stripe",
+	"name": "language FG challenge",
 	"dependencies": {
 		"angular": "1.5.*",
-		"angular-translate": "2.11.*",
+		"angular-translate": "2.1 1.*",
 		"bootstrap": "3.3.*",
 		"flag-icon-css": "2.4.*"
 	}
