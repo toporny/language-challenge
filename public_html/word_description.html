@@ -39,6 +39,30 @@
   display: block;
   float: left;
 }
+.margin-inherit {
+    margin-top: inherit;
+    margin-bottom: inherit;  
+}
+
+.glyphicon-remove {
+  float:right;
+  font-size:18px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 3px;
+  background-color: red;
+  margin-top: -2px;  
+}
+.glyphicon-ok{
+  float:right;
+  font-size:18px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 3px;
+  background-color: green;
+  margin-top: -2px;  
+}
+
 </style>
 
 
@@ -46,21 +70,17 @@
   <div class="row">
     <div class="hidden-xs col-sm-4 col-md-3 col-lg-2"><img width="100%" src="img/profesorek2_ZOPTYMALIZOWANY.svg"></div>
     <div  class="col-xs-12 col-sm-6 col-md-9 col-lg-10">
-
-  <div class="row">
-    <div class="col-xs-2 col-sm-2">
-      <img style="border:1px solid black; margin: 19px 0px 5px 0px" width=35vw" src="../bower_components/flag-icon-css/flags/4x3/pl.svg">
-    </div>
-    <div class="col-xs-8 col-sm-8">
-      <h3 class="text-center primary">LANGUAGE CHALLENGE!</h3>
-    </div>
-    <div class="col-xs-2 col-sm-2">
-      <img style="float:right;border:1px solid black; margin: 19px 0px 5px 0px" width="35vw" src="../bower_components/flag-icon-css/flags/4x3/gb.svg">
-    </div>
-  </div>
-
-
-
+      <div class="row">
+        <div class="col-xs-2 col-sm-2">
+          <img style="border:1px solid black; margin: 19px 0px 5px 0px" width=35vw" src="../bower_components/flag-icon-css/flags/4x3/pl.svg">
+        </div>
+        <div class="col-xs-8 col-sm-8">
+          <h3 class="text-center primary">LANGUAGE CHALLENGE!</h3>
+        </div>
+        <div class="col-xs-2 col-sm-2">
+          <img style="float:right;border:1px solid black; margin: 19px 0px 5px 0px" width="35vw" src="../bower_components/flag-icon-css/flags/4x3/gb.svg">
+        </div>
+      </div>
       <div class="btn-group btn-group-justified" role="group" aria-label="Justified button group">
         <a href="#" class="btn btn-success btn-lg"><span class="glyphicon glyphicon glyphicon-chevron-left"></span> informed</a>
         <a class="btn btn-success btn-lg" role="button"><b>1/20</b></a>
@@ -71,24 +91,25 @@
 
       <div class="list-group">
         <h3 class="text-center list-group-item active">
-          „ PROPOSAL ”
+          „ PROPOSAL ” 
         </h3>
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 
         <table class="table table-condensed">
           <tr class="danger" >
-            <td>wniosek</td><td class="text-muted small">proposal, application, conclusion, motion, finding, proposition</td>
+            <td><h4 class="margin-inherit">wniosek</h4></td><td class="text-muted small">proposal, application, conclusion, motion, finding, proposition</td>
           </tr>
           <tr class="info">
-            <td>propozycja</td><td class="text-muted small">proposal, offer, proposition, suggestion, offering, proffer</td>
+            <td><h4 class="margin-inherit">propozycja</h4></td><td class="text-muted small">proposal, offer, proposition, suggestion, offering, proffer</td>
           </tr>
           <tr class="warning">
-            <td>projekt</td><td class="text-muted small">projekt design, project, draft, proposal, plan, scheme</td>
+            <td><h4 class="margin-inherit">projekt</h4></td><td class="text-muted small">projekt design, project, draft, proposal, plan, scheme</td>
           </tr>
           <tr class="active" >
-            <td>oświadczyny</td><td class="text-muted small">oświadczyny proposal, offer of marriage</td>
+            <td><h4 class="margin-inherit">oświadczyny</h4></td><td class="text-muted small">oświadczyny proposal, offer of marriage</td>
           </tr>
           <tr class="active"   >
-            <td>deklaracja</td><td class="text-muted small">deklaracja  declaration, statement, pledge, digest, avowal, proposal</td>
+            <td><h4 class="margin-inherit">deklaracja</h4></td><td class="text-muted small">deklaracja  declaration, statement, pledge, digest, avowal, proposal</td>
           </tr>
         </table>
 
