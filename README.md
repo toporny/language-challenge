@@ -1,6 +1,6 @@
-# rsgyc-forms2
+# language-challenge
 
-rsgyc form made with angular / bostrap and valdr validation and stripe payment implemented
+language-challenge form made with angular / bostrap
 
 https://iplotz.com/app/
 
